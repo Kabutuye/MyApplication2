@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:backgroundTint="@color/DarkGray"
+    android:background="@drawable/ic_button_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="30dp"
+        android:background="@color/window_background"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/calories_lost"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="45dp"
+            android:textSize="25sp"
+            android:textColorHint="@color/White"
+            android:textColor="@color/WhiteSmoke"
+            android:hint="Results for calories burnt"
+            />
+
+        <TextView
+            android:id="@+id/bmi_value"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:hint="Results for bmi"
+            android:textColorHint="@color/White"
+            android:textSize="25sp"
+            android:textColor="@color/WhiteSmoke"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/weight_input"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/input_bg"
+        android:drawablePadding="0dp"
+        android:gravity="center"
+        android:hint="Enter your weight (kg)"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+        android:textColorHint="@android:color/holo_orange_dark" />
+
+    <EditText
+        android:id="@+id/distance_input"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:background="@drawable/input_bg"
+        android:hint="Enter Distance(km)"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+        android:textColorHint="@android:color/holo_orange_dark" />
+
+
+    <EditText
+        android:id="@+id/height_input"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:background="@drawable/input_bg"
+        android:hint="Enter Height(m)"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+        android:textColorHint="@android:color/holo_orange_dark" />
+
+
+
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@color/Black"
+        android:text="Calculate"
+        android:textColor="@color/White"/>
+
+
+
+
+
+
+
+</RelativeLayout>
